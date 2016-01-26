@@ -1,0 +1,219 @@
+#lean_overlay {
+  position: fixed;
+  z-index: 100;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  background: #000;
+  display: none;
+}
+
+.modal_close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  display: block;
+  width: 14px;
+  height: 14px;
+  background: url(../img/modal_close.png);
+  z-index: 2;
+}
+
+.login {
+  width: 90%;
+  height: 98%;
+  background: #fff;
+  border-radius: 5px;
+  color: black;
+  /*font-size: 2em;*/
+  
+  font-weight: bold;
+  /*color: black;*/
+  
+  padding: 1% 1%;
+  margin-bottom: 10%;
+}
+
+#sign-up {
+  background: cyan;
+  border-radius: 30px;
+}
+
+#sign-up:hover {
+  background: pink;
+}
+
+#sign-in {
+  background: orange;
+  border-radius: 30px;
+}
+
+#sign-in:hover {
+  background: olive;
+}
+/*---------------------------------------------------------------------*/
+
+body {
+  font-family: "Times New Roman", Georgia, Serif;
+}
+
+div.news-frame {
+  background: #f8f8f8;
+  width: 100%;
+  height: 30px;
+  /*border: 0;*/
+  /*margin-bottom: 100px;*/
+  /*margin-top: 15px;*/
+}
+
+span.news {
+  color: aqua;
+  font-size: 20px;
+  /*background: #f8f8f8;*/
+}
+
+#tabs {
+  border-radius: 5px;
+  border: 5px solid aqua;
+  box-shadow: 5px 5px 5px yellowgreen;
+  width: 96%;
+  height: 100%;
+  margin: 5px auto 60px;
+  /*background: blue;*/
+}
+
+.tab-content {
+  /*padding: px auto;*/
+  
+  height: 100%;
+  /*overflow: scroll;*/
+}
+
+#tab-2 {
+  height: 100%;
+  /*overflow: scroll;*/
+}
+
+#tab-2 .wealth-rating {
+  /*padding-bottom: 10px;*/
+  
+  height: 40%;
+  margin: 0;
+  padding: 0;
+  /*overflow: hidden;*/
+  /*border: 3px solid skyblue;*/
+  
+  border-bottom: 2px double orange;
+  /*background: blue;*/
+}
+
+#tab-2 .up-rating {
+  height: 50%;
+  /*overflow: scroll;*/
+  
+  margin: 0;
+  padding: 0;
+}
+
+h3.rich-man-rank,
+h3.progress-rank {
+  /*margin-bottom: 5px;*/
+  /*margin: 0 auto;*/
+  /*padding: 30px auto;*/
+  
+  padding: 0;
+  margin: 0;
+  /*background: red;*/
+  
+  text-align: center;
+  color: rgb(0, 97, 184);
+}
+
+button#change-site {
+  width: 70%;
+  margin: 10px auto;
+  background: #5cb85c;
+}
+
+ul>li {
+  list-style: none;
+}
+/*#settings {
+  background: red;
+  border: 1px solid purple;
+}
+*/
+
+.subnav {
+  /*background: #ccc;*/
+  
+  border: 1px solid #eeeeee;
+  border-radius: 5px;
+  background: #ccc;
+  box-shadow: 5px 5px 5px #555;
+  padding: 5px;
+}
+
+.subnav li {
+  color: blue;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: normal;
+  text-align: center;
+  line-height: 20px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid blue;
+}
+
+.subnav li a:link,
+.subnav li a:visited {
+  color: purple;
+}
+
+.subnav li a:hover,
+.subnav li a:active {
+  color: red;
+}
+
+#wealth-rating>li>span.rich-man,
+#wealth-rating>li>span.wealth,
+#wealth-rating>li>span.float-rate {
+  border: 1px solid gray;
+  /*padding-right: 30px;*/
+  /*border-radius: 2px;*/
+  
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  /*height: 30px;*/
+}
+
+#wealth-rating>li>span.wealth {
+  color: red;
+  font-weight: bold;
+  /*background: #eee;*/
+}
+
+#wealth-rating>li>span.float-rate {
+  color: green;
+  /*background: #ccc;*/
+}
+
+#up-rating>li>span.up-name,
+#up-rating>li>span.wealth,
+#up-rating>li>span.up-rate {
+  width: 30%;
+  text-align: center;
+  display: inline-block;
+  border: 1px double darkgray;
+}
+
+#up-rating>li>span.wealth {
+  color: purple;
+}
+
+#up-rating>li>span.up-rate {
+  color: red;
+  font-weight: bold;
+}
